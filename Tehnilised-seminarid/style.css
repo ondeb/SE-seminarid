@@ -1,3 +1,83 @@
-aaaa
-a
-a
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+h1 {
+    color: #e19b31;
+    font-size: 2.5em;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+p, ul, table {
+    color: #333333;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+a {
+    color: #e19b31;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e19b31;
+}
+
+img {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    grid-column: 1 / span 2;
+    margin: 0 auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #e19b31;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    font-weight: 500;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1.8em;
+    font-family: 'Arial Black', sans-serif;
+    margin-top: 20px;
+    grid-column: 1 / span 2;
+}
+
