@@ -1,0 +1,2 @@
+1. Lehe sisu saab jagada kahte tulpa näiteks .container, ehk lehe gridiks jagamise meetodil või kasutades CSS Flexboxi.
+2. Inline style-i peetakse mahukamate veebilehtede puhul halvaks tavaks kuna see on vähem efektiivne, mahukad lehed muutuvad aeglasemaks, paljude elementide muutmisel peaks html-is igat elementi eraldi muutma (näiteks värv vms), mis on aeganõudev, kuid CSSiga saab lihtsalt classidega seda ainult ühe korraga teha.
